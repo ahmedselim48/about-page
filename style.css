@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 3000px;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+h1{
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    padding-bottom: 32px;
+}
+a:hover{
+    background-color: orangered;
+}
+.hero{
+    background-color: orangered;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.hero-content{
+    max-width: 50%;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+.second{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.inner{
+    display: flex;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);    
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+svg{
+    width: 40px;
+}
